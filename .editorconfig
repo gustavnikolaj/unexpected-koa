@@ -1,0 +1,26 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+[*.js]
+indent_style = space
+indent_size = 4
+
+[*.ko]
+indent_style = space
+indent_size = 4
+
+[*.i18n]
+indent_style = space
+indent_size = 4
+
+[*.{css,less,scss,ccss}]
+indent_style = space
+indent_size = 4
+
+[{*.json,*.cjson,*.yml}]
+indent_style = space
+indent_size = 2
