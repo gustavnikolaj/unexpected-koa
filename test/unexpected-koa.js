@@ -2,6 +2,10 @@ var expect = require('unexpected');
 var unexpectedKoa = require('../');
 
 describe('unexpected-koa', function () {
+    it('async functions', function () {
+        return (async function () {});
+    });
+
     it('should export an unexpected plugin', function () {
         return expect(unexpectedKoa, 'to satisfy', {
             name: 'unexpected-koa',
