@@ -14,7 +14,7 @@
     "unexpected"
   ],
   "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "6.18.0",
     "babel-core": "6.18.0",
