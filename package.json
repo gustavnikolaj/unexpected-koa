@@ -25,6 +25,8 @@
     "eslint": "3.8.1",
     "eslint-config-onelint": "1.1.0",
     "koa": "2.0.0",
+    "koa-bodyparser": "3.2.0",
+    "koa-router": "7.0.1",
     "mocha": "3.1.2",
     "nyc": "8.3.2",
     "unexpected": "10.18.1",
