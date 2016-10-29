@@ -7,7 +7,10 @@
     "lint": "eslint .",
     "test": "node --harmony_async_await ./node_modules/.bin/_mocha"
   },
-  "keywords": ["koa", "unexpected"],
+  "keywords": [
+    "koa",
+    "unexpected"
+  ],
   "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
   "license": "ISC",
   "devDependencies": {
@@ -16,6 +19,10 @@
     "eslint-config-onelint": "1.1.0",
     "koa": "2.0.0",
     "mocha": "3.1.2",
-    "unexpected": "10.18.1"
+    "unexpected": "10.18.1",
+    "unexpected-messy": "6.2.0"
+  },
+  "dependencies": {
+    "lodash": "4.16.4"
   }
 }
