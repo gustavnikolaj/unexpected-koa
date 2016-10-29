@@ -28,4 +28,19 @@ describe('unexpected-koa', function () {
             });
         });
     });
+
+    it('should add parameters from the query option to the url', function () {
+        return expect(async ctx => {
+            ctx.body = ctx.url;
+        }, 'to yield exchange', {
+            request: {
+                url: '/foo',
+                query: {
+                    bar: 'heyæøå',
+                    baz: ['blah', 'yeah']
+                }
+            },
+            response: '/foo?bar=hey%C3%A6%C3%B8%C3%A5&baz=blah&baz=yeah'
+        });
+    });
 });
