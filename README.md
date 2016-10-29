@@ -1,5 +1,7 @@
 # Unexpected Koa
 
+[![Build Status](https://travis-ci.org/gustavnikolaj/unexpected-koa.svg?branch=master)](https://travis-ci.org/gustavnikolaj/unexpected-koa)
+
 Plugin for [unexpected](http://unexpected.js.org) that makes it easy to test
 [koa](https://github.com/koajs/koa) applications.
 
