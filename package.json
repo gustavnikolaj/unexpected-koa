@@ -5,6 +5,7 @@
   "main": "lib/unexpected-koa.js",
   "scripts": {
     "lint": "eslint .",
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
     "test": "node --harmony_async_await ./node_modules/.bin/_mocha"
   },
   "keywords": [
@@ -19,6 +20,7 @@
     "eslint-config-onelint": "1.1.0",
     "koa": "2.0.0",
     "mocha": "3.1.2",
+    "nyc": "8.3.2",
     "unexpected": "10.18.1",
     "unexpected-messy": "6.2.0"
   },
