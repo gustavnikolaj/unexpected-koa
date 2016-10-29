@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
+    "babel-test": "mocha --require babel-core/register --require babel-polyfill",
     "test": "node --harmony_async_await ./node_modules/.bin/_mocha"
   },
   "keywords": [
@@ -15,7 +16,12 @@
   "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-core": "6.18.0",
     "babel-eslint": "7.1.0",
+    "babel-plugin-syntax-async-functions": "6.13.0",
+    "babel-plugin-transform-regenerator": "6.16.1",
+    "babel-polyfill": "6.16.0",
     "eslint": "3.8.1",
     "eslint-config-onelint": "1.1.0",
     "koa": "2.0.0",
