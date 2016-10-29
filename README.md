@@ -11,3 +11,5 @@ The plugin is adapted from
 The plugin had been tested against koa v2 both when the async functions are
 transpiled to regenerator using babel and when running with async function
 support enabled in node.js 7.
+
+It seems to work with koa version 1, but I didn't test it extensively.
