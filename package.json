@@ -30,7 +30,9 @@
     "koa-router": "7.0.1",
     "mocha": "3.1.2",
     "nyc": "8.3.2",
-    "unexpected": "10.18.1",
-    "unexpected-messy": "6.2.0"
+    "unexpected": "10.18.1"
+  },
+  "dependencies": {
+    "unexpected-messy": "^6.2.0"
   }
 }
