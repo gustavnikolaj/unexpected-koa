@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
     "babel-test": "mocha --require babel-core/register --require babel-polyfill",
-    "test": "node --harmony_async_await ./node_modules/.bin/_mocha"
+    "test": "node ./node_modules/.bin/_mocha"
   },
   "keywords": [
     "koa",
